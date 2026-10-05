@@ -53,5 +53,16 @@ git config --local --list
 git log --oneline
 ```
 
-### Kết quả Log Terminal (Minh chứng)
-*(Học viên dán kết quả chạy các lệnh `git log --oneline` và `git config --local --list` tại đây để chứng minh đã cấu hình thành công)*
+### Kết quả Log Terminal (Minh chứng thực tế)
+```bash
+$ git config --local --list
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+user.name=Học Viên DevOps
+user.email=hocvien@example.com
+
+$ git log --oneline
+0d76b93 (HEAD -> main, origin/main) Initial commit: Khởi tạo dự án
+```

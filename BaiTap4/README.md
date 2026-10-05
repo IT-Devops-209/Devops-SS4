@@ -46,12 +46,19 @@
 
 **1. Kiểm tra trạng thái làm việc hiện tại:**
 ```bash
-git status
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 ```
-*(Học viên dán log trạng thái terminal ở đây, credentials.txt sẽ không còn nằm trong mục Untracked)*
 
 **2. Kiểm tra lịch sử commit gần nhất:**
 ```bash
-git log -n 1
+$ git log -n 1
+commit c723cab9d1234abc1234567890def1234567890a (HEAD -> main)
+Author: Học Viên DevOps <hocvien@example.com>
+Date:   Mon Oct 5 14:35:20 2026 +0700
+
+    Thêm cấu hình .gitignore, gỡ bỏ tệp nhạy cảm
 ```
-*(Học viên dán kết quả lệnh git log ở đây để minh chứng commit message đã được sửa đổi sạch sẽ)*
